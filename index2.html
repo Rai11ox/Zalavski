@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>Zalavsciy Vitaliy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .containery {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-image: url('fon.jpg');
+      background-repeat: no-repeat; /* не повторювати фон */
+      background-size: cover; /* розтягнути зображення на всю площину */
+      background-position: center; /* вирівняти зображення по центру */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+    .gallery-item:hover .image-overlay {
+      opacity: 1;
+    }
+
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .image-overlay-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .image-overlay-content h2 {
+        color: #fff;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .image-overlay-content p {
+      color: #ccc;
+      font-size: 14px;
+    }
+  </style>
+
+<body background="fon.jpeg">
+    <map name="map1">
+        <area shape="default" title=" Cтаном на початок 2023 року середній вік автомобілів в українському автопарку становить 23,2 роки. За останній рік цей показник зріс на півроку." href="https://autoconsulting.ua/article.php?sid=53408">
+      </map>
+    
+      <section class="header_wrap">
+        <header class="header">
+          <div class="menu-toggle">
+            <div class="menu-icon"></div>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="index.html">На головну</a></li>
+              <li><a href="index1.html">Цікаве про нас</a></li>
+              <li><a href="index3.html">Контакти</a></li>
+              <li><a href="index2.html">Галерея картинок</a></li>
+            </ul>
+          </nav>
+          <img src="logo.png" class="logo" usemap="#map1">
+        </header>
+      </section>
+  <div class="containery">
+    <h1>Галерея картинок</h1>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="1.jpg" alt="Зображення 1">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 1</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="2.jpg" alt="Зображення 2">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 2</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="3.jpg" alt="Зображення 3">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 3</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="3.jpg" alt="Зображення 4">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 4</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="4.jpg" alt="Зображення 5">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 5</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="5.jpg" alt="Зображення 6">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 6</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="6.jpg" alt="Зображення 7">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 7</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="8.jpg" alt="Зображення 8">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 8</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="7.jpg" alt="Зображення 9">
+        <div class="image-overlay">
+          <div class="image-overlay-content">
+            <h2>Зображення 9</h2>
+            <p>Опис Зображення</p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+  <footer>
+    <p><a href="https://nupp.edu.ua/">© «Полтавська політехніка імені Юрія Кондратюка»</a></p>
+    </footer>
+</body>
+</html>

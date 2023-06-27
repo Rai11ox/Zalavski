@@ -1,0 +1,248 @@
+body {
+    color: #2b2727;
+    line-height: 1.5;
+    font-size: 1rem;
+    overflow-x: hidden;
+    background: white;
+    background-size: cover;
+  }
+  
+  .header {
+    display: flex;
+    align-items: flex-start;  
+    justify-content: space-between; 
+    padding: 15px 7px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: radial-gradient(rgb(30, 30, 28), rgb(0, 0, 0));
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #04a339;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  .menu li a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: width 0.3s;
+    border-radius: 50px;
+  }
+  
+  .menu li a:hover {
+    color: #333;
+  }
+  
+  .menu li a:hover:before {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .logo {
+      width: 100px;
+      height: 70px;
+    }
+  
+    .menu li a {
+      padding: 8px 16px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .menu li a {
+      padding: 8px 16px;
+    }
+  }
+  
+  .logo {
+    order: 1; 
+    margin-left: auto; 
+    width: 120px;
+    height: 85px;
+    transition: transform 1s;
+  }
+  
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+  
+  .slider {
+    position: relative;
+  }
+  
+  .slider-container {
+    display: flex;
+    overflow: hidden;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-container img {
+    flex-shrink: 0;
+    width: 33.33%;
+    height: 670px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .slider-arrow {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  .intro {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .intro-content h1 {
+    font-size: 52px;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+  }
+
+.my-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .my-text {
+    margin-bottom: 20px;
+  }
+  
+  .my-text h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .my-text p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .custom-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-container h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .custom-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .custom-container li {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .custom-container li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d6d6d6;
+  }
+
+  footer a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .container .text {
+    text-align: center;
+    color: #333;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+  
+  .container .text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .container .text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  
